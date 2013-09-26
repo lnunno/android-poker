@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PokerAppActivity!</string>
+    <string name="app_name">PokerApp</string>
+    <string name="NewHandButton">Get Hand</string>
+    <string name="card1">card1</string>
+    <string name="card2">card2</string>
+    <string name="card3">card3</string>
+    <string name="card4">card4</string>
+    <string name="card5">card5</string>
+    <string name="infoString">Tap \&quot;Get Hand\&quot; to get a new hand</string>
+    <string name="tradeButtonText">Trade Cards</string>
+    <color name="hand_view_background_color">#00cc33</color>
+    <string name="sortButtonText">Sort Hand</string>
+
+</resources>

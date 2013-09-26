@@ -1,0 +1,89 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=2636, tid=1704
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0_01-b08
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.1-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000022cc000):  JavaThread "Unknown thread" [_thread_in_vm, id=1704, stack(0x00000000025d0000,0x00000000026d0000)]
+
+Stack: [0x00000000025d0000,0x00000000026d0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000022cc000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1704, stack(0x00000000025d0000,0x00000000026d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000000013fd40000 - 0x000000013fd73000 	E:\Java\bin\javaw.exe
+0x0000000077b50000 - 0x0000000077cf9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000778d0000 - 0x00000000779ef000 	C:\Windows\system32\kernel32.dll
+0x000007fefe310000 - 0x000007fefe37c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefeff0000 - 0x000007feff0cb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefea80000 - 0x000007fefeb1f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefec00000 - 0x000007fefec1f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe8b0000 - 0x000007fefe9dd000 	C:\Windows\system32\RPCRT4.dll
+0x00000000775c0000 - 0x00000000776ba000 	C:\Windows\system32\USER32.dll
+0x000007fefea10000 - 0x000007fefea77000 	C:\Windows\system32\GDI32.dll
+0x000007fefefe0000 - 0x000007fefefee000 	C:\Windows\system32\LPK.dll
+0x000007fefe380000 - 0x000007fefe449000 	C:\Windows\system32\USP10.dll
+0x000007fefc9c0000 - 0x000007fefcbb4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefe5f0000 - 0x000007fefe661000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe4f0000 - 0x000007fefe51e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefee30000 - 0x000007fefef39000 	C:\Windows\system32\MSCTF.dll
+0x0000000072c90000 - 0x0000000072d61000 	E:\Java\jre\bin\msvcr100.dll
+0x000000006e480000 - 0x000000006eb4d000 	E:\Java\jre\bin\server\jvm.dll
+0x000007fef1440000 - 0x000007fef1449000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe520000 - 0x000007fefe56d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe9e0000 - 0x000007fefe9e8000 	C:\Windows\system32\NSI.dll
+0x000007fefb3a0000 - 0x000007fefb3db000 	C:\Windows\system32\WINMM.dll
+0x0000000077d10000 - 0x0000000077d17000 	C:\Windows\system32\PSAPI.DLL
+0x0000000073370000 - 0x000000007337f000 	E:\Java\jre\bin\verify.dll
+0x0000000073340000 - 0x0000000073368000 	E:\Java\jre\bin\java.dll
+0x000000006d420000 - 0x000000006d455000 	E:\Java\jre\bin\jdwp.dll
+0x00000000727e0000 - 0x00000000727e8000 	E:\Java\jre\bin\npt.dll
+0x0000000072c70000 - 0x0000000072c85000 	E:\Java\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:52380 -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\Android\android-sdk\platforms\android-8\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 52379 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test my.pokerapp.test.HandEvaluaterTest:testFourOfAKind
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=E:\Java\bin;.
+PATH=E:\Java\jre\bin;E:/Java/bin/../jre/bin/server;E:/Java/bin/../jre/bin;E:/Java/bin/../jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Haskell\bin;C:\Program Files (x86)\Haskell Platform\2011.4.0.0\lib\extralibs\bin;C:\Program Files (x86)\Haskell Platform\2011.4.0.0\bin;ommonProgramFiles\Microsoft Shared\Windows Live;E:\Java\bin;C:\Program Files (x86)\Racket;C:\Program Files (x86)\Haskell Platform\2011.4.0.0\bin\ghci.exe;C:\Program Files (x86)\Calibre2\;C:\Ruby193\bin;C:\Users\Lucas\AppData\Roaming\cabal\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Ruby193\bin;C:\Users\Lucas\LocalFilesSSD\Eclipse;
+USERNAME=Lucas
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 5 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 16 model 5 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, popcnt, mmxext, 3dnowpref, lzcnt, sse4a
+
+Memory: 4k page, physical 8387768k(5124704k free), swap 16773684k(13082620k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.1-b02) for windows-amd64 JRE (1.7.0_01-b08), built on Oct  3 2011 01:39:25 by "java_re" with unknown MS VC++:1600
+
+time: Thu Jun 21 21:56:45 2012
+elapsed time: 0 seconds
+
